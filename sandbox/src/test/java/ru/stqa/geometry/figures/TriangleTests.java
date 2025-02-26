@@ -10,7 +10,17 @@ public class TriangleTests {
         var result = Triangle.TriangleArea(7.2, 2.1, 8.1);
         Assertions.assertEquals(7.188741197177705, result);
 
-
-
     }
+@Test
+        void canCalculetePerimetr(){
+        var result = Triangle.TrianglePerimetr(7.2, 2.1 ,8.1);
+        Assertions.assertEquals(17.4, result);
+        }
+
+
+
+
+
+
+
 }
